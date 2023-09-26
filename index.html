@@ -1,76 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
-
-    <title>Желание</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- следующие 3 строки нужны для корректного отображения семантических элементов HTML5 в старых версиях Internet Explorer-->
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
-
   <body>
-    <!-- Вот наш главный заголовок, который используется на всех страницах нашего веб-сайта -->
-
     <header>
-      <h1>Желание</h1>
+      <h1>Сайт человека прямоходящего</h1>
+      <p>Первые шаги страждущих верстки</p>
       <nav>
-      <ul>
-        <li><a href="#">Домашняя страница</a></li>
-        <li><a href="#">Наша команда</a></li>
-        <li><a href="#">Проекты</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-
-       <!-- Форма поиска — это ещё один распространённый нелинейный способ навигации по веб-сайту. -->
-
-       <form>
-         <input type="search" name="q" placeholder="Search query">
-         <input type="submit" value="Go!">
-       </form>
-     </nav>
-    </header>
-
-    <!-- Здесь основное содержимое нашей страницы -->
-    <main>
-
-      <!-- Она содержит статью -->
-      <article>
-        <h2>Заголовок статьи</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-
-        <h3>Подраздел</h3>
-
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p
-      </article>
-
-      <!-- Дополнительный контент также может быть вложен в основной контент -->
-      <aside>
-        <h2>Связанные темы</h2>
-
         <ul>
-          <li><a href="#">Мне нравится стоять рядом с берегом моря</a></li>
-          <li><a href="#">>Мне нравится стоять рядом с морем</a></li>
-          <li><a href="#">Даже на севере Англии</a></li>
-          <li><a href="#">Здесь не перестаёт дождь</a></li>
-          <li><a href="#">Лаааадно...</a></li>
+          <li><a href="index.html">страница №1</a></li>
+          <li><a href="catalog.html"> страница №2</a></li>
         </ul>
-      </aside>
-
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Первая секция -</h2>
+          <p>Она обо мне</p>
+          <img src="images/image.png" alt="описание самой красивой картинки">
+          <p>секция очень важно, мы еще поговорим, что такое секция.</p>
+        </section>
+        <section>
+          <h2>Вторая секция</h2>
+          <p>А давайте про физику. Хотя можно и про информатику</p>
+        </section>
+        <section>
+          <h2>И третья</h2>
+          <p>Можно уже и про математику и даже можно еще что-то продолжить.</p>
+        </section>
+      </article>
     </main>
-
-    <!-- И вот наш главный нижний колонтитул, который используется на всех страницах нашего веб-сайта -->
-
     <footer>
-      <p>©Авторские права никому не принадлежат, 2050. Все права защищены.</p>
+      <p>сюда обычно пишут адрес, как связаться с гением</p>
     </footer>
-
   </body>
 </html>
