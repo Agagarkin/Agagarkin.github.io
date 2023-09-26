@@ -3,5 +3,16 @@ body{
     color: #163152;
     font-weight: 400;
     margin: 0;
-    
 {
+.header{
+    width: 1170px;
+    margin: 0, auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+}
