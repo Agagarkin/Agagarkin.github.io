@@ -19,3 +19,7 @@ body{
     flex-wrap: wrap;
     display: flex;
 }
+
+.nav_list_item{
+    margin-right: 30px;
+}
